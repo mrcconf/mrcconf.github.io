@@ -126,7 +126,8 @@ p {
     width: 200;
     height: 200;
     border-radius: 100%;
-    margin-bottom: 18px; }
+    margin-bottom: 18px;
+    object-position: top;}
   .speaker-item__name {
     font-weight: 500;
     font-size: 24px;
