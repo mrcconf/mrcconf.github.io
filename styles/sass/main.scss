@@ -1,0 +1,182 @@
+// imports
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700&subset=cyrillic');
+@import './reset.scss';
+
+// Styleguide
+$blue: #000AFF;
+$dark: rgba(0, 0, 0, 0.72);
+$black: #000000;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+p {
+    font-size: 24px;
+    line-height: 34px;
+}
+.getButton {
+    background-color: $dark;  
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: .3s ease;
+    width: 200px;
+    &:hover {
+        background-color: $blue;
+    }
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 32px;
+    color: $blue;
+}
+
+.link {
+    text-decoration: none;
+    color: $dark;
+    transition: .3s ease;
+
+    &:hover {
+        color: $blue;
+    }
+}
+
+.navbar {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+
+    &__item {
+        margin-right: 36px;
+    }
+}
+
+.intro {
+    margin: 94px 0px 94px 0px;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 64px;
+    text-align: center;
+    color: $blue;
+}
+
+.description {
+    text-align: center;
+    margin-top: 30px;
+    color: $dark;
+}
+
+.header_next {
+    @extend .header;
+    font-size: 44px;
+    margin-bottom: 24px;
+    margin-top: 90px;
+}
+
+.about__text {
+    transition: .3s ease;
+    color: $dark;
+    
+    &:hover {
+        color: $black;
+    }
+}
+
+.speakers-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.speaker-item {
+    width: 320px;
+    margin-top: 73px;
+
+    .link {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    &__avatar {
+        object-fit: cover;
+        width: 200;
+        height: 200;
+        border-radius: 100%;
+        margin-bottom: 18px;
+    }
+
+    &__name {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 9px;
+    }
+    &__job {
+        font-size: 14px;
+        line-height: 19px;
+        color: $dark
+    }
+
+    &__work {
+        font-size: 14px;
+        line-height: 24px;
+        color: $dark
+    }
+}
+
+.subheader_next {
+    @extend .header_next;
+    font-size: 36px;
+    color: $dark;
+    margin-top: 36px;
+}
+
+.agenda {
+    &-item {
+        margin: 40px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &__date {
+            width: 200px;
+            .date {
+                font-size: 36px;
+                font-weight: bold;
+            }
+        }
+
+        &__desc {
+            width: 760px;
+            h3 {
+                font-size: 24px;
+                color: $black;
+                line-height: 36px;
+            }
+            span {
+                font-size: 20px;
+                color: $dark;
+                line-height: 24px;
+            }
+        }
+    }
+}
