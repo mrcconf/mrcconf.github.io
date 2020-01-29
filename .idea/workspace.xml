@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b34ce954-952e-4834-9d68-9106a9d3e053" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/img/ivan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/ivan.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ivan_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,6 +29,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -54,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1556961093648</updated>
       <workItem from="1556961095083" duration="715000" />
-      <workItem from="1580288707865" duration="1242000" />
+      <workItem from="1580288707865" duration="1766000" />
     </task>
     <task id="LOCAL-00001" summary="fix: script tag remove">
       <created>1556961517852</created>
