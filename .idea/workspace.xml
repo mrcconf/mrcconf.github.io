@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b34ce954-952e-4834-9d68-9106a9d3e053" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="b34ce954-952e-4834-9d68-9106a9d3e053" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1556961093648</updated>
       <workItem from="1556961095083" duration="715000" />
-      <workItem from="1580288707865" duration="3051000" />
+      <workItem from="1580288707865" duration="3387000" />
     </task>
     <task id="LOCAL-00001" summary="fix: script tag remove">
       <created>1556961517852</created>
