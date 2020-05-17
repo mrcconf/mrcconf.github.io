@@ -60,6 +60,11 @@ p {
   width: 960px;
   margin: 0 auto; }
 
+.online-conf {
+  background-color: #fb2e6c;
+  width: 100%;
+}
+
 .logo {
   font-weight: bold;
   font-size: 32px;
